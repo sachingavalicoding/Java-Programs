@@ -1,0 +1,13 @@
+class PracticeNumberProgramming 
+{
+	public static void main(String[] args) 
+	{
+		int n1 = 12;
+		int n2 = 24;
+		int smallest = n1 > n2 ? n1 : n2;
+	    int gcd = smallest;
+		for(int i = smallest ; i >= 1; i--){
+			if(smallest % i == 0) 	
+		}
+	}
+}

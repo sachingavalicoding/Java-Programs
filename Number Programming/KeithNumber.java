@@ -15,8 +15,8 @@ class KeithNumber
 	public static void main(String[] args) 
 	{
 		int num = 742;	
-		int n1 = num % 100;
-		int n2 = num % 10;
+		int n1 = 4;
+		int n2 = 2;
 		int n3 = 13;
 		int n4;
 		while(n3 < num) {
@@ -25,7 +25,7 @@ class KeithNumber
 		n2 = n3 ;// 13
 		n3 = n4;//19
 		if(n4 == num){
-			System.out.println(" Ywa ");	
+			System.out.println(" Yes  ");	
 			break;
 		}
 			
